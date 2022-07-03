@@ -1,0 +1,20 @@
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+
+  background: rgb(255, 255, 255);
+  margin-top: 35px;
+  padding: 0px 0px 35px 12%;
+  color: #1d1f22;
+}
+
+.category-page__gallery {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  overflow-y: scroll; /* Show vertical scrollbar */
+}

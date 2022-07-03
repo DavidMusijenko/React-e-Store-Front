@@ -1,0 +1,33 @@
+.color-selector-cart__box {
+  width: 34px;
+  height: 34px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  border: 1px solid #ffffff;
+}
+
+.color-selector-cart__box-white {
+  width: 34px;
+  height: 34px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  border: 1px solid #a7a7a7;
+}
+
+.color-selector-cart__box-selected {
+  width: 34px;
+  height: 34px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  border: 1px solid #ffffff;
+  outline: 2px solid #5ece7b;
+}
+
+.color-selector-cart__misc-text {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 15px 0 10px 2px;
+}

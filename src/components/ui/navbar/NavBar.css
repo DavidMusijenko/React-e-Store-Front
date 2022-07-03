@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.navbar__left-side {
+  display: flex;
+  justify-content: space-around;
+  font-family: Raleway;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: 400;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.navbar__nav {
+  padding: 28px 10% 0 10%;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Raleway;
+  align-items: center;
+  position: relative;
+  z-index: 500;
+  background-color: white;
+  /* margin-right: 150px; */
+}
+/* .navbar__menu {
+  display: flex;
+  text-transform: uppercase;
+  z-index: 200;
+} */
+
+.navbar__right-side {
+  display: flex;
+}
+
+.navbar__FX-logo {
+  position: relative;
+  top: 2px;
+  right: 12px;
+}
+
+.navbar__green-logo {
+  position: relative;
+}
+
+.navbar--active {
+  color: #5ece7b !important;
+  font-weight: 600;
+  border-bottom: solid;
+  padding: 30px 28px;
+}
+
+.navbar--nonActive {
+  color: darkgrey;
+
+  padding: 30px 28px;
+}

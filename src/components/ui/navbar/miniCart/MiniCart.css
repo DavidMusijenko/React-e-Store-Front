@@ -1,0 +1,32 @@
+.mini-cart__empty-cart {
+  position: relative;
+  display: flex;
+}
+
+.mini-cart__circle {
+  position: absolute;
+  left: 10px;
+  bottom: 4px;
+}
+
+.mini-cart__circle-text {
+  font-size: 14px;
+  font-style: normal;
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 700;
+  left: 16px;
+  bottom: 8px;
+  color: white;
+}
+
+.mini-cart__circle-double {
+  font-size: 14px;
+  font-style: normal;
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 700;
+  left: 12px;
+  bottom: 8px;
+  color: white;
+}

@@ -1,0 +1,5 @@
+.mini-img-viewer__image {
+  width: 121px;
+  height: 190px;
+  object-fit: contain;
+}

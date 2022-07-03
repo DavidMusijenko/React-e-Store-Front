@@ -1,0 +1,37 @@
+.mini-color-selector-cart__flex-container {
+  display: flex;
+}
+
+.mini-color-selector-cart__color-box {
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  border: 1px solid #ffffff;
+}
+
+.mini-color-selector-cart__color-box-white {
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  border: 1px solid #a7a7a7;
+}
+
+.mini-color-selector-cart__color-box-selected {
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  border: 1px solid #ffffff;
+  outline: 1px solid #5ece7b;
+}
+
+.mini-color-selector-cart__MiscText {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 5px;
+}

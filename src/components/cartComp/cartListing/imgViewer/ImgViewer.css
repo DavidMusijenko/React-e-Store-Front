@@ -1,0 +1,27 @@
+.img-viewer__container {
+  position: relative;
+}
+
+.img-viewer__arrows {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 276px;
+  right: -35px;
+  opacity: 60%;
+  width: 100px;
+}
+
+.img-viewer__arrows:hover {
+  opacity: 100%;
+}
+
+.image-viewer__image {
+  margin: 20px 0 20px 20px;
+  width: 200px;
+  height: 288px;
+  object-fit: scale-down;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+}

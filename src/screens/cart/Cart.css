@@ -1,0 +1,32 @@
+h2 {
+  font-family: "Raleway";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  display: flex;
+  text-align: center;
+
+  /* --c-text */
+
+  color: #1d1f22;
+  margin: 45px 0 80px 200px;
+}
+
+.cart__empty {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+
+  font-size: 50px;
+
+  text-align: center;
+  margin-top: 200px;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}

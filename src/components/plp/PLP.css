@@ -1,0 +1,28 @@
+.PLP {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .PLP {
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-items: center;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .PLP {
+    grid-template-columns: 1fr;
+    gap: 1em;
+    justify-items: center;
+  }
+}
+
+h1 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,52 @@
+.FX__dropdown {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  align-items: right;
+}
+
+.FX__dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  left: 3px;
+  top: 18px;
+  border: none;
+}
+
+.FX__dropdown-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #1d1f22;
+  text-align: left;
+  padding: 12px 16px;
+  border: none;
+  width: 100%;
+  background-color: white;
+}
+
+.FX__dropdown-content .FX__dropdown-text:hover {
+  background-color: lightgray;
+}
+
+.FX__dropdown-container {
+  position: absolute;
+  align-items: right;
+  width: 29px;
+  right: 0px;
+  z-index: 300;
+}
+
+.FX__vector {
+  position: relative;
+  left: 2px;
+  bottom: 2spx;
+  float: right;
+}

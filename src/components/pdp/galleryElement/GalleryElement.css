@@ -1,0 +1,20 @@
+.gallery-element__small-img {
+  max-width: 120px;
+  max-height: 120px;
+
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.gallery-element__small-img-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+}
+
+.gallery-element__both-container {
+  display: flex;
+  gap: 80px;
+}

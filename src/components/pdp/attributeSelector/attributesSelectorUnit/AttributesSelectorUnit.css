@@ -1,0 +1,48 @@
+.attribute-selector-unit__box {
+  box-sizing: border-box;
+  width: 63px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #1d1f22;
+  margin-right: 6px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #1d1f22;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.attribute-selector-unit__box-active {
+  background: #1d1f22;
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 63px;
+  height: 45px;
+  background: black;
+  border: 1px solid #1d1f22;
+  margin-right: 6px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.attribute-selector-unit__misc-text {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}

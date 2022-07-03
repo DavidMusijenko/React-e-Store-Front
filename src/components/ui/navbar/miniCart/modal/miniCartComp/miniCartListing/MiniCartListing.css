@@ -1,0 +1,65 @@
+.mini-cart-listing__product-name-cart {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+
+.mini-cart-listing__price {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 5px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.mini-cart-listing__misc {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.mini-cart-listing__image-container {
+  width: 121px;
+  height: 190px;
+  object-fit: scale-down;
+
+  position: relative;
+}
+
+.mini-cart-listing__listing {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini-cart-listing--shift {
+  margin-left: 23px;
+}
+
+.mini-cart-listing__text-cart {
+  width: 170px;
+  float: left;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mini-cart-listing__selector {
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-right: 10px;
+}
+
+.mini-cart-listing__right-side {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
