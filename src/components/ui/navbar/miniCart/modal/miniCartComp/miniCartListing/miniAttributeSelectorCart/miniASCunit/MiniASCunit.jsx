@@ -31,7 +31,7 @@ export class MiniASCunit extends Component {
                     )
                   }
                 >
-                  {elem.displayValue}
+                  {elem.value}
                 </button>
               </div>
             );

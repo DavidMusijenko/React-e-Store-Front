@@ -3,8 +3,8 @@ import * as actionTypes from "./cart-types";
 const INITIAL_STATE = {
   cart: [], //{id, title, price, currency, img, qty}
   currentItem: null,
-  currentCurrency: [],
-  currencies: [],
+  currentCurrency: null,
+  currencies: null,
   categories: [],
   categoriesLoaded: [],
   overlayState: 0,

@@ -34,7 +34,7 @@ export class ASCunit extends Component {
                   })
                 }
               >
-                {elem.displayValue}
+                {elem.value}
               </button>
             );
           })}

@@ -18,15 +18,23 @@ import {
   addToCategory,
   setCurrency,
 } from "./redux/shopping/cart-actions";
-import {
-  LOAD_CURRENCIES,
-  LOAD_CATEGORIES,
-  GET_PRODUCTS,
-} from "./components/graphql/Queries";
+import { LOAD_CURRENCIES, LOAD_CATEGORIES } from "./components/graphql/Queries";
+
+const defaultOptions = {
+  watchQuery: {
+    fetchPolicy: "no-cache",
+    errorPolicy: "ignore",
+  },
+  query: {
+    fetchPolicy: "no-cache",
+    errorPolicy: "all",
+  },
+};
 
 const client = new ApolloClient({
   uri: "http://localhost:4000/",
   cache: new InMemoryCache(),
+  defaultOptions: defaultOptions,
 });
 
 export class App extends Component {
@@ -35,30 +43,23 @@ export class App extends Component {
 
     const fetchData = async () => {
       try {
-        const currenciesQuery = await client.query({
-          query: LOAD_CURRENCIES,
-        });
-        await this.props.addCurrency(currenciesQuery.data.currencies);
-        const categoriesQuery = await client.query({
-          query: LOAD_CATEGORIES,
-        });
-        await this.props.addCategory(categoriesQuery.data.categories);
-        this.props.categories.map(async (elem) => {
-          return client
-            .query({
-              query: GET_PRODUCTS,
-              variables: {
-                input: elem.name,
-              },
-            })
-            .then((result) =>
-              this.props.addToCategory(elem.name, result.data.category.products)
-            );
-        });
-        if (this.props.currentCurrency.length === 0) {
-          await this.props.setCurrency(this.props.currencies[0]);
-        } else {
-          return false;
+        if (this.props.categories.length === 0) {
+          const currenciesQuery = await client.query({
+            query: LOAD_CURRENCIES,
+          });
+          await this.props.addCurrency(currenciesQuery.data.currencies);
+          const categoriesQuery = await client.query({
+            query: LOAD_CATEGORIES,
+          });
+          await this.props.addCategory(categoriesQuery.data.categories);
+          if (
+            this.props.currentCurrency === null &&
+            this.props.currencies !== null
+          ) {
+            await this.props.setCurrency(this.props.currencies[0]);
+          } else {
+            return false;
+          }
         }
       } catch (e) {
         console.error(e);

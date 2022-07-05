@@ -19,6 +19,9 @@ export class MiniCartListing extends Component {
           <div className="mini-cart-listing__left-container">
             <div className="mini-cart-listing__text-cart">
               <div className="mini-cart-listing__product-name-cart mini-cart-listing--shift">
+                {this.props.product.brand}
+              </div>
+              <div className="mini-cart-listing__product-name-cart mini-cart-listing--shift">
                 {this.props.product.name}
               </div>
 

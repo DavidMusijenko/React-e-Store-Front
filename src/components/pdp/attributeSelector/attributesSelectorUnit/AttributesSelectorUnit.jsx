@@ -40,7 +40,7 @@ export class AttributesSelectorUnit extends Component {
                   )
                 }
               >
-                {elem.displayValue}
+                {elem.value}
               </button>
             );
           })}

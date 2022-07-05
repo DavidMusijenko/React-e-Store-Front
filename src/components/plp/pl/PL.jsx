@@ -11,7 +11,7 @@ import {
 
 export class PL extends Component {
   render() {
-    if (this.props.currentCurrency.length !== 0) {
+    if (this.props.currentCurrency !== null) {
       const currencyObject = this.props.product.prices.filter(
         (el) => el.currency.label === this.props.currentCurrency.label
       );
@@ -21,10 +21,7 @@ export class PL extends Component {
       return (
         <div className="PL__cart">
           <NavLink to={`/product/${this.props.product.id}`}>
-            <div
-              className="PL__product"
-              onClick={() => this.props.loadCurrentItem(this.props.product)}
-            >
+            <div className="PL__product">
               <div className="PL__text">
                 {!this.props.product.inStock ? (
                   <div className="PL__out-of-stock-text">OUT OF STOCK</div>
@@ -32,7 +29,7 @@ export class PL extends Component {
                   false
                 )}
                 <div className="PL__product-name">
-                  {this.props.product.name}
+                  {this.props.product.brand} {this.props.product.name}
                 </div>
                 <div className="PL__price-el">
                   <div className="PL__price">{currencySymbol}</div>

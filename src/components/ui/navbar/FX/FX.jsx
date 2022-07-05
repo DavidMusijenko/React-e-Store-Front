@@ -38,7 +38,7 @@ export class FX extends Component {
   }
 
   render() {
-    if (this.props.currentCurrency.length !== 0) {
+    if (this.props.currentCurrency !== null) {
       return (
         <div className="FX__dropdown">
           <div

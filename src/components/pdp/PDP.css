@@ -32,10 +32,19 @@
   margin-left: 60px;
 }
 
-.PDP__product-name {
+.PDP__product-brand {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  margin: 10px 10px 40px 0;
+}
+
+.PDP__product-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 27px;
   margin: 10px 10px 40px 0;

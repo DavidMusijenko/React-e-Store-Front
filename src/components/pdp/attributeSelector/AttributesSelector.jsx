@@ -8,6 +8,7 @@ import { adjustAttributeCurrent } from "../../../redux/shopping/cart-actions";
 export class AttributesSelector extends Component {
   render() {
     const attributes = this.props.currentItem.attributes;
+    console.log(attributes);
 
     // search for swatch attribute
 
@@ -84,6 +85,7 @@ export class AttributesSelector extends Component {
     });
   }
 }
+
 const mapStateToProps = (state) => {
   return {
     currentItem: state.shop.currentItem,

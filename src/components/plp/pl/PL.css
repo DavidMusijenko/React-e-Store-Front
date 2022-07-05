@@ -46,6 +46,7 @@
   font-weight: 300;
   font-size: 18px;
   color: black;
+  width: 300px;
 }
 
 .PL__price {
@@ -71,7 +72,7 @@
   display: none;
   position: absolute;
   left: 75%;
-  top: 70%;
+  top: 68%;
 }
 
 .PL__cart {

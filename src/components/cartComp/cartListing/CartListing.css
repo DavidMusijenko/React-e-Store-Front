@@ -7,10 +7,20 @@
   justify-content: space-around;
   gap: 0rem;
 }
-.cart-listing__product-name {
+
+.cart-listing__product-brand {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.cart-listing__product-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 27px;
   margin-bottom: 10px;

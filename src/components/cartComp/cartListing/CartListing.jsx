@@ -15,6 +15,9 @@ export class CartListing extends Component {
     return (
       <div className="cart-listing__listing">
         <div className="cart-listing__text">
+          <div className="cart-listing__product-brand">
+            {this.props.product.brand}
+          </div>
           <div className="cart-listing__product-name">
             {this.props.product.name}
           </div>
