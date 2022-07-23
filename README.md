@@ -41,7 +41,7 @@ See some more specific information on the main requirements below. Remember - if
 - Ability to change the currency of the store to one of the available currencies
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
