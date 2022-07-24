@@ -1,4 +1,4 @@
-# E-commerce front using React, React Router, Redux, GraphQL
+# E-commerce front using React, React Router, Redux, GraphQL, no hardcode
 
 ![grab-landing-page](https://github.com/DavidMusijenko/e-Store-Front/blob/main/Demo.gif)
 
