@@ -1,4 +1,6 @@
-# E-commerce front using React, React Router, Redux, GraphQL, no hardcode
+# E-commerce front using React, React Router, Redux, GraphQL, no hardcode, HTML sanitization.
+
+Drop me a message if you intend to run this thing - I will provide you with instructions how to run the backend.
 
 ![grab-landing-page](https://github.com/DavidMusijenko/e-Store-Front/blob/main/Demo.gif)
 
