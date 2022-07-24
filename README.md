@@ -5,9 +5,6 @@ david.musijenko@gmail.com
 
 ![grab-landing-page](https://github.com/DavidMusijenko/e-Store-Front/blob/main/Demo.gif)
 
-## Toolkit requirements
-
-When selecting a toolkit for this assignment, following these guidelines is mandatory.
 
 ## Required:
 
@@ -32,8 +29,6 @@ When selecting a toolkit for this assignment, following these guidelines is mand
 - Cart page + Cart overlay (minicart)
 
 ## Details
-
-See some more specific information on the main requirements below. Remember - if something is in the design, but is not explicitly described here or above, it should be implemented anyways.
 
 - Ability to add/remove products and change their amounts in cart - on the cart page itself, PLP and PDP should be provided.
 - For products that have various options (attributes) - the options should be selected.
